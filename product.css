@@ -72,3 +72,11 @@
   }
   
   .overflow-hidden { overflow: hidden; }
+
+  .sub-header{
+    background-color: grey;
+    position: relative;
+    height: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
