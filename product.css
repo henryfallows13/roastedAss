@@ -78,7 +78,6 @@
     position: relative;
     height: 40px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
   }
 
   .button_buy{
@@ -92,4 +91,8 @@
 
   .button_buy:hover{
     background-color: #AA7F4E;
+  }
+
+  *{
+    font-family: Palatino;
   }
