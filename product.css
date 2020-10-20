@@ -83,7 +83,7 @@
   .button_buy{
     position: relative;
     text-align: center;
-    top: 50%;
+    top: 40%;
     background-color: #FFEBCC;
     color: black;
     border: transparent;
@@ -95,4 +95,11 @@
 
   *{
     font-family: Palatino;
+    color: lightgray;
+  }
+
+  .txt_size{
+    background-color: rgba(170, 127, 78, .90);;
+    size: 200px;
+    height: 150px;
   }
