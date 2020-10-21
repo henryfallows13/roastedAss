@@ -18,10 +18,12 @@ const soft2 = document.getElementById("soft2");
 const order_list = document.getElementById("order_list");
 
 const pay_button = document.getElementById("pay_button");
+const clear_button = document.getElementById("clear_button");
 
 var i = 0;
 var order_array = [];
 var total_price = 0;
+const table_number = document.getElementById("table_number");
 
 //setting drink prices
 const c1_price = 2;
@@ -214,5 +216,19 @@ pay_button.addEventListener("mouseout", function() {
     this.textContent = "PAY";
   })
 pay_button.addEventListener("click",()=>{
-  window.alert("PAYMENT SUCCESFULL");
+  if (total_price == 0 || table_number.value == ""){
+    window.alert("YOUR CART IS EMPTY OR YOU DIDN`T ENTER YOUR TABLE NUMBER");
+  }
+  else{
+    window.alert("PAYMENT SUCCESFULL");
+  }
+})
+
+//clearing list
+
+clear_button.addEventListener("click",()=>{
+  var ul = document.getElementById("order_list");
+  ul.innerHTML = "";
+  order_array.length = 0;
+  total_price = 0;
 })
