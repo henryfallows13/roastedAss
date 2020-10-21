@@ -37,6 +37,13 @@
   
   .overflow-hidden { overflow: hidden; }
 
+  .header-text{
+    position: relative;
+    text-align: center;
+    background-color: rgba(170, 127, 78, .80);;
+    border-radius: 10px;
+  }
+
   .sub-header{
     background-color: #AA7F4E;
     position: relative;
@@ -119,5 +126,9 @@ PAYBAR
     border-radius: 5px;
     text-align: left;
     width: 10%;
+    color: black;
+  }
+
+  li{
     color: black;
   }
