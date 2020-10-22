@@ -38,12 +38,12 @@
 
     <!-- NAVIGATION BAR-->
 <nav class="site-header sticky-top py-1" style="background:padding-box top 150%">
-  <div class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2 d-md-inline-block" href="#home"style="text-align: center;">ROASTED</a>
+  <div class="container d-flex flex-md-row justify-content-between">
+    <a class="py-2 d-md-inline-block" href="#home"style="text-align: left;">ROASTED</a>
     <a class="py-2 d-none d-md-inline-block" href="#coffee">Coffee</a>
     <a class="py-2 d-none d-md-inline-block" href="#tea">Tea</a>
     <a class="py-2 d-none d-md-inline-block" href="#coldDrinks">Cold Drinks</a>
-    <a class="py-2 d-none d-md-inline-block" href="#order">Order</a>
+    <a class="py-2 d-md-inline-block" href="#order" style="text-align: right;">Order</a>
     <a class="py-2 d-none d-md-inline-block" href="https://www.google.com/maps/@53.4578358,-2.2857935,19z">Get directions</a>
     <a class="py-2 d-none d-md-inline-block" href="#contact_us">Contact Us</a>
   </div>
@@ -252,13 +252,12 @@
 
 <!--ORDER-->
   <div class="paybar d-md-flex flex-column" id="pay_bar">
-    <h4 style="color: black;">Order summary:</h4> 
-    <b class="btn btn-outline-primary" id="clear_button">CLEAR LIST</b>
+    <b class="btn btn-outline-primary d-md-inline-block" id="clear_button">CLEAR LIST</b>
+    <h4 style="color: black;" class="d-md-inline-block">Order summary:</h4> 
       <ul id="order_list" style="color: black;">
       </ul>
     <h6 style="color: black;">Enter table number:</h6>
     <input id="table_number" type="text" value="">
-    <br>
     <a class="btn btn-outline-primary" id="pay_button">PAY</a>
   </div>
 

@@ -28,15 +28,15 @@ const table_number = document.getElementById("table_number");
 //setting drink prices
 const c1_price = 15.75;
 const c2_price = 15.75;
-const c3_price = "13.50";
-const c4_price = "11.50";
+const c3_price = 13.50;
+const c4_price = 11.50;
 
-const t1_price = "11.50";
-const t2_price = "11.50";
-const t3_price = "11.50";
-const t4_price = "13.50";
+const t1_price = 11.50;
+const t2_price = 11.50;
+const t3_price = 11.50;
+const t4_price = 13.50;
 const t5_price = 15.75;
-const t6_price = "11.50";
+const t6_price = 11.50;
 
 const s1_price = 10.75;
 const s2_price = 10.75;
