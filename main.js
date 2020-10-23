@@ -215,12 +215,19 @@ pay_button.addEventListener("mouseover", function() {
 pay_button.addEventListener("mouseout", function() {
     this.textContent = "PAY";
   })
+
 pay_button.addEventListener("click",()=>{
-  if (total_price == 0 || table_number.value == ""){
-    window.alert("YOUR CART IS EMPTY OR YOU DIDN`T ENTER YOUR TABLE NUMBER");
+  if (total_price == 0){
+    window.alert("YOUR CART IS EMPTY");
+  }
+  else if (table_number.value == ""){
+    window.alert("PLEASE ENTER TABLE NUMBER")
+  }
+  else if (table_number.value >= "1" && table_number.value <= "25"){
+    window.alert("PAYMENT SUCCESFULL");
   }
   else{
-    window.alert("PAYMENT SUCCESFULL");
+    window.alert(`THERE IS NO TABLE ${table_number.value} IN THIS CAFE`)
   }
 })
 
