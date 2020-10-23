@@ -223,7 +223,7 @@ pay_button.addEventListener("click",()=>{
   else if (table_number.value == ""){
     window.alert("PLEASE ENTER TABLE NUMBER")
   }
-  else if (table_number.value >= "1" && table_number.value <= "25"){
+  else if (table_number.value >= 1 && table_number.value <= 25){
     window.alert("PAYMENT SUCCESFULL");
   }
   else{
