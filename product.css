@@ -52,16 +52,19 @@
   }
 
   .button_buy{
-    position: relative;
     text-align: center;
-    top: 40%;
+    bottom: -15%;
+    width: 70%;
     background-color: #FFEBCC;
     color: black;
-    border: transparent;
+    border: beige;
+    border-width: 1px;
   }
 
   .button_buy:hover{
     background-color: #AA7F4E;
+    border: beige;
+    border-width: 1px;
   }
 
   *{
@@ -70,13 +73,17 @@
   }
 
   .txt_size{
+    position: relative;
+    text-align: center;
+    bottom: -15%;
     background-color: rgba(170, 127, 78, .90);;
-    height: 40%;
+    height: auto;
     border-radius: 10px;
   }
   .txt_size p {
     font-size: 125%;
   }
+
 
   /*
 PAYBAR
